@@ -177,7 +177,8 @@
                     <!-- An input-type of tag MUST be marked as repeatable -->
                     <repeatable>true</repeatable>
                     <label>Assunto</label>
-                    <input-type>tag</input-type>
+                    <!-- <input-type>tag</input-type> -->
+                    <input-type>onebox</input-type>
                     <hint>Entre com o assunto do item.</hint>
                     <required></required>
                     <!-- <vocabulary>srsc</vocabulary> -->
