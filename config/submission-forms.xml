@@ -65,6 +65,19 @@
             <row>
                 <field>
                     <dc-schema>dc</dc-schema>
+                    <dc-element>contributor</dc-element>
+                    <dc-qualifier>advisor</dc-qualifier>
+                    <repeatable>true</repeatable>
+                    <label>Autor</label>
+                    <type-bind>Artigo</type-bind>
+                    <input-type>onebox</input-type>
+                    <hint>Entre com o nome do orientador (Ex. Vasconcelos, Alcebíades Pereira)</hint>
+                    <!-- <required>É obrigatório o nome do autor</required> -->
+                </field>
+            </row>
+            <row>
+                <field>
+                    <dc-schema>dc</dc-schema>
                     <dc-element>title</dc-element>
                     <dc-qualifier></dc-qualifier>
                     <repeatable>false</repeatable>
