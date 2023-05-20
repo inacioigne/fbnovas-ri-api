@@ -106,7 +106,7 @@
                     <dc-qualifier>issued</dc-qualifier>
                     <repeatable>false</repeatable>
                     <label>Data de publicação</label>
-                    <type-bind>Artigo</type-bind>
+                    <!-- <type-bind>Artigo</type-bind> -->
                     <style>col-sm-4</style>
                     <input-type>date</input-type>
                     <hint>Ano de conclusão do trabalho</hint>
@@ -203,10 +203,10 @@
                     <dc-element>description</dc-element>
                     <dc-qualifier>abstract</dc-qualifier>
                     <repeatable>false</repeatable>
-                     <type-bind>Artigo</type-bind>
+                     <!-- <type-bind>Artigo, Tese, Dissertação</type-bind> -->
                     <label>Abstract</label>
                     <input-type>textarea</input-type>
-                    <hint>Entre com o resume do item.</hint>
+                    <hint>Entre com o resumo do item.</hint>
                     <required></required>
                 </field>
             </row>
@@ -1408,8 +1408,8 @@
             <stored-value>Imagem</stored-value>
             </pair>
             <pair>
-            <displayed-value>Slide</displayed-value>
-            <stored-value>Slide</stored-value>
+            <displayed-value>Apresentação</displayed-value>
+            <stored-value>Apresentação</stored-value>
             </pair>
             <pair>
             <displayed-value>Podcast</displayed-value>
@@ -1422,6 +1422,10 @@
             <pair>
             <displayed-value>Tese</displayed-value>
             <stored-value>Tese</stored-value>
+            </pair>
+             <pair>
+            <displayed-value>Dissertação</displayed-value>
+            <stored-value>Dissertação</stored-value>
             </pair>
             <pair>
             <displayed-value>Video</displayed-value>
